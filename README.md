@@ -1,10 +1,11 @@
 # This is frontend React js application for User Mangement System Web App.
+#### This web app has all CRUD operations for Users.
 
 ## Routes in this App : 
 ```
 Homepage : /
 About US page : /about
-Contact us page : /
+Contact us page : /contact
 ```
 
 

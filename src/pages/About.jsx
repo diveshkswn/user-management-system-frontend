@@ -40,6 +40,11 @@ function About() {
           About Us and Contact us pages have no functionality. They are just to demonstrate
           React Router Feature.
         </p>
+        <h4 className="m-3 text-center">
+          Developed by
+          {' '}
+          <a href="https://diveshkswn.github.io/portfolio_/">Divesh Keswani</a>
+        </h4>
 
       </div>
     </div>
