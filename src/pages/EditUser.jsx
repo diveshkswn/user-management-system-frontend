@@ -17,7 +17,7 @@ function EditUser() {
 
   // This is for editUser
   async function loadUser() {
-    const result = await axios.get(`/api/v1/users/${id}`);
+    const result = await axios.get(`https://floating-oasis-63374.herokuapp.com/api/v1/users/${id}`);
     setUser(result.data.data);
   }
 
@@ -31,7 +31,7 @@ function EditUser() {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const data = await axios.put(`/api/v1/users/${id}`, user);
+    const data = await axios.put(`https://floating-oasis-63374.herokuapp.com/api/v1/users/${id}`, user);
     if (data.status === 201) {
       setSuccessBanner(true);
       setTimeout(() => {

@@ -18,7 +18,7 @@ function AddUser() {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const data = await axios.post('/api/v1/users', user);
+    const data = await axios.post('https://floating-oasis-63374.herokuapp.com/api/v1/users', user);
     if (data.status === 201) {
       setSuccessBanner(true);
       setTimeout(() => {

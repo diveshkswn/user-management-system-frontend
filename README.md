@@ -15,7 +15,9 @@ Contact us page : /contact
 3. React-DOM-Router
 4. React-Icons
 5. Bootstrap
+6. Netlify for deployment
 
+#### Site Deployed on : https://user-management-system-by-divesh.netlify.app/
 
 # Getting Started with Create React App
 

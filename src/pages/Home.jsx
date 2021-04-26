@@ -11,7 +11,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
 
   async function getUsers() {
-    const data = await axios.get('/api/v1/users');
+    const data = await axios.get('https://floating-oasis-63374.herokuapp.com/api/v1/users');
     if (data.data.success === 'true') {
       setUsers(data.data.data);
       setUserCount(users.length);
@@ -20,7 +20,7 @@ function Home() {
   }
 
   async function deleteUser(userId) {
-    await axios.delete(`/api/v1/users/${userId}`);
+    await axios.delete(`https://floating-oasis-63374.herokuapp.com/api/v1/users/${userId}`);
   }
 
   function populateUsers(user) {
