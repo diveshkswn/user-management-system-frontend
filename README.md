@@ -8,6 +8,14 @@ About US page : /about
 Contact us page : /contact
 ```
 
+### For Frontend have below technology used :
+
+1. React js
+2. React Hooks like- useState , useEffect , Context
+3. React-DOM-Router
+4. React-Icons
+5. Bootstrap
+
 
 # Getting Started with Create React App
 
