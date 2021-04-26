@@ -1,3 +1,13 @@
+# This is frontend React js application for User Mangement System Web App.
+
+## Routes in this App : 
+```
+Homepage : /
+About US page : /about
+Contact us page : /
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
