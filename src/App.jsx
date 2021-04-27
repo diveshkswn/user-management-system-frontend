@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import AddUser from './pages/AddUser';
 import EditUser from './pages/EditUser';
+import ViewUser from './pages/ViewUser';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/users/add" component={AddUser} />
           <Route exact path="/users/edit/:id" component={EditUser} />
+          <Route exact path="/users/view/:id" component={ViewUser} />
           <Route component={NotFound} />
         </Switch>
 

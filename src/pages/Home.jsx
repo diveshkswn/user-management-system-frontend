@@ -32,7 +32,7 @@ function Home() {
         <td>{user.username}</td>
         <td>{user.email}</td>
         <td>
-          <Link className="btn btn-primary mr-2"><CgDetailsMore /></Link>
+          <Link className="btn btn-primary mr-2" to={`/users/view/${user.id}`}><CgDetailsMore /></Link>
           <Link className="btn btn-outline-primary mr-2" to={`/users/edit/${user.id}`}><FiEdit /></Link>
           <Link className="btn btn-danger mr-2" onClick={() => { deleteUser(user.id); setUserCount((oldVal) => oldVal - 1); }}><FiDelete /></Link>
         </td>
